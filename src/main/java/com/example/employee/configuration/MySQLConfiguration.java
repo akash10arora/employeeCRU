@@ -21,7 +21,7 @@ public class MySQLConfiguration {
 
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUsername("root");
-        dataSource.setPassword("11112805");
+        dataSource.setPassword("pass");
         dataSource.setUrl("jdbc:mysql://localhost:3306/employee3");
 
         Resource initSchema = new ClassPathResource("schema.sql");
